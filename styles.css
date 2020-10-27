@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Lato', Helvetiva, Arial, sans-serif;
+    transition: background-color 500ms ease;
 }
 
 .container {

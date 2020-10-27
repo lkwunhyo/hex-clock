@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', Helvetiva, Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container #time {
+    position: absolute;
+    font-size: 4.5em;
+    font-weight: 100;
+    color: #ffffff;
+    min-width: 200px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    margin: auto 1rem 1rem 1rem;
+    color: #ffffff;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #ffffff;
+}
